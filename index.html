@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 <!DOCTYPE html>
 <html lang="en">
@@ -55,3 +56,62 @@
 </body>
 </html
 
+=======
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <style>
+        body{
+            background-color:goldenrod;
+        }
+        h2,h3{
+            text-align:center;
+            padding:0%;
+        
+        h2{
+            margin-top: 0px;
+        }    
+        }
+        h3{
+            margin:0%;
+        }
+       
+       iframe{
+           margin-left: auto;
+           margin-right: auto;
+           display: block;
+       }
+       button{
+           text-align: center;
+           text-decoration: maroon;
+           display: inline-block;
+           font-size: 16px;
+           margin: 4px 2px;
+           border-radius: 20px;
+       }
+    </style>
+</head>
+<body>
+    
+    <h2 id="Title">A Dynamic Spatial Visualization of COVID-19 Infections(DistrictWise)</h2>
+  
+<div class="final" style="width:100%">
+    <button type="button" onclick="document.getElementById('Title').innerHTML = 'A Dynamic Spatial Visualization of COVID-19 Infections(Districtwise)';
+        document.getElementById('jsplot').src = 'index_D.html'"style="background-color:slateblue; color:white ">Districts</button>
+    <button type="button" onclick="document.getElementById('Title').innerHTML = 'A Dynamic Spatial Visualization of COVID-19 Infections(ProvinceWise)';
+    document.getElementById('jsplot').src = 'index_P.html'"style="background-color:lightseagreen; color:white">Province</button>
+    
+<div class="final" style="width:100%">
+
+        <iframe id="jsplot" src="index_D.html" style="height:600px;width:100%">
+        </iframe>
+</div>
+</body>
+</html
+
+>>>>>>> b765d888d5469e4e659583f83768465099a0f3bd
